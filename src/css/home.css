@@ -1,0 +1,22 @@
+
+.lands-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.land-top{
+    background-color:#4b9197;
+    border-width: 1px 0px;
+    color:aliceblue;
+    font-size: 25px;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+.font-color-black{
+    color: rgb(19, 19, 19);
+}

@@ -1,0 +1,9 @@
+.tuple{
+    
+}
+
+.tuple-element{
+    padding: 10px; /* Espacio interno de las celdas */
+    border-right: 10px;
+    color: rgb(63, 63, 63);
+}

@@ -1,0 +1,35 @@
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: #4b9197;
+    display: flex;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    z-index: 9999; 
+  }
+  
+  .nav-menu {
+    list-style-type: none; /* Elimina los estilos de lista predeterminados */
+    display: flex; /* Muestra los elementos de la lista en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+  
+  .nav-menu li {
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+  }
+  
+  .nav-menu li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  .nav-menu li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor sobre los enlaces */
+  }
+
+
+  .brand-image {
+    margin-left: 1vw;
+    height: 10vh;
+  }

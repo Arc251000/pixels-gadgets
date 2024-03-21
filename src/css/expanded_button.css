@@ -1,0 +1,54 @@
+
+.expanded-button-container{
+    width: 40vw;
+    overflow: hidden;
+    border-radius: 25px;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(88, 88, 88);
+    border-style: solid;
+    transition: height 0.3s ease-in-out;
+    margin-bottom: 2vh;
+  }
+  
+  @media (max-width: 300px) {
+    .expanded-button-container{
+      width: 80vw;
+    }
+  }
+
+  .expanded-button{
+    width: 40vw;
+    height: 6vh;
+    display:flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 300px) {
+    .expanded-button-container{
+      width: 80vw;
+    }
+  }
+
+  .expanded-button-elements-container{
+    width: 40vw;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    margin-bottom: 2vh;
+  }
+
+  @media (max-width: 300px) {
+    .expanded-button-elements-container{
+      width: 80vw;
+    }
+  }
+  .expanded-button-text{
+    width: 100%;
+  }
+
+  .expanded-button-icon{
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .flip{
+    transform: rotate(180deg);
+  }
